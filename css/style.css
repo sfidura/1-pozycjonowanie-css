@@ -1,0 +1,64 @@
+body{
+    background-color: darkslategrey;
+    margin: 0;
+}
+#container{
+    width: 600px;
+    height: 600px;
+    border: 5px solid white;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#container > div{
+    width: 200px;
+    height: 200px;
+}
+#inner-1{
+    background-color: red;
+    position: absolute;
+}
+#inner-2{
+    background-color: blue;
+    position: absolute;
+    left: 200px;
+}
+#inner-3{
+    background-color: green;
+    position: absolute;
+    left: 400px;
+}
+#inner-4{
+    background-color: yellow;
+    position: absolute;
+    top: 200px;
+}
+#inner-5{
+    background-color: black;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+#inner-6{
+    background-color: orange;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+#inner-7{
+    background-color: violet;
+    position: absolute;
+    top: 400px;
+}
+#inner-8{
+    background-color: gray;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+#inner-9{
+    background-color: pink;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
